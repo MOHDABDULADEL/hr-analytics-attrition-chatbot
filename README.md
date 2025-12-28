@@ -1,122 +1,79 @@
 # 🧠 HR Analytics Dashboard – Attrition, Engagement & AI Chatbot
 
-![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+[![Live App](https://img.shields.io/badge/Live_App-Streamlit-success)](https://hr-analytics-attrition-chatbot-34foqrceukpgeg8z3ms8vm.streamlit.app/)
+![Status](https://img.shields.io/badge/Status-Deployed-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-ff4b4b)
-![Machine Learning](https://img.shields.io/badge/ML-Attrition%20Prediction-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![OpenAI](https://img.shields.io/badge/AI-ChatGPT-black)
+![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-informational)
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Live Demo
 
-This project is an **end-to-end HR Analytics system** that combines:
+Experience the application online:
 
-- 📊 **Attrition & engagement analytics dashboard**
-- 🤖 **ChatGPT-powered HR assistant**
-- 🔍 **Employee profile & risk insights**
-- 🧮 **Attrition prediction ML model**
-- 🗄️ **SQLite database integration**
-- 📈 **Power BI-style charts**
+👉 **https://hr-analytics-attrition-chatbot-34foqrceukpgeg8z3ms8vm.streamlit.app/**
 
-It helps HR teams:
+---
 
-- understand **who is likely to leave**
-- measure **employee engagement**
-- get **AI-generated insights**
-- view **risk recommendations per employee**
+## 📌 Project Overview
+
+This is an **end-to-end HR Analytics dashboard application** combining:
+
+- 📊 Power BI–style visual analytics  
+- 🤖 ChatGPT–powered HR assistant  
+- 📈 Machine Learning attrition prediction  
+- 🗄️ SQLite database integration  
+- 👩‍💼 Employee engagement & risk profile panels  
+- 🚀 Streamlit web app deployment
+
+It provides HR teams with automated insights to:
+
+- Identify disengaged employees
+- Predict likelihood of attrition
+- Get AI suggestions for HR strategy
+- Explore trends with interactive visuals
+
+---
+
+## 🧭 System Architecture
+
+```mermaid
+flowchart LR
+    A[User] -->|Interact| B[Streamlit UI]
+
+    subgraph Backend
+        B --> C[SQLite Database]
+        B --> D[ML Model - Attrition Predictor]
+        B --> E[ChatGPT API]
+    end
+
+    C -->|Employee HR Data| D
+    D -->|Model Output| B
+    E -->|AI Response| B
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🚨 Core Technologies
-| Tool | Description |
-|------|-------------|
-| 🐍 Python | Programming language |
-| 🎈 Streamlit | Interactive web app framework |
-| 🤖 OpenAI GPT | Chatbot HR assistant |
-| 🧠 Scikit-Learn | Machine learning model |
-| 🗄️ SQLite | Relational database |
-| 📊 Altair | Visual analytics charts |
-| 📦 Pandas / Numpy | Data processing |
+| Component | Technology |
+|-----------|------------|
+| Frontend | Streamlit |
+| Backend | SQLite |
+| ML Modeling | Python / Scikit-Learn |
+| AI Assistant | OpenAI ChatGPT API |
+| Visualizations | Altair |
+| Data Handling | Pandas / NumPy |
+| Deployment | Streamlit Community Cloud |
 
 ---
 
-## ⭐ Key Features
+## 📸 Screenshots
 
-✔ HR AI chatbot assistant  
-✔ Attrition prediction model  
-✔ Employee engagement metrics  
-✔ Employee profile & risk panel  
-✔ SQL database connectivity  
-✔ Power BI-style visual analytics  
-✔ Modern responsive UI  
-✔ Download-ready screenshots  
-✔ Works fully offline (except chatbot)
-
----
-
-## 🧩 Machine Learning Component
-
-Model predicts:
-
-- probability of attrition
-- predicted attrition label (Yes/No)
-
-Features used include:
-
-- age  
-- years at company  
-- monthly income  
-- working years  
-- engagement score  
-- work-life balance  
-- satisfaction metrics  
-
----
-
-## 🗄️ Database
-
-Backend uses:
-
-```
-SQLite Database: hr_analytics.db
-Table: employee_hr
-```
-
-Columns include:
-
-- EmployeeNumber
-- Department
-- JobRole
-- Attrition
-- EngagementLevel
-- EngagementScore
-- Satisfaction metrics
-
----
-
-## 🤖 Chatbot Integration
-
-Chatbot uses:
-
-- **OpenAI API**
-- conversational memory
-- context-aware HR responses
-
-Capabilities:
-
-- policy Q&A
-- attrition reasoning
-- engagement improvement ideas
-- SQL-style data questions
-
----
-
-## 🖥️ Screenshots
-
-> Add your screenshots in a folder named `/screenshots`
+> Place screenshots in `/screenshots` in your repo with these exact names:
 
 ```
 /screenshots/dashboard_overview.png
@@ -125,99 +82,155 @@ Capabilities:
 /screenshots/employee_profile_risk.png
 ```
 
-### 🔹 Dashboard Overview
+### **Dashboard Overview**
 ![Dashboard](screenshots/dashboard_overview.png)
 
-### 🔹 HR Chatbot
+---
+
+### **ChatGPT HR Chatbot**
 ![Chatbot](screenshots/chatgpt_hr_chatbot.png)
 
-### 🔹 Attrition Prediction Tool
+---
+
+### **Attrition Prediction Tool**
 ![Predictor](screenshots/attrition_prediction_tool.png)
 
-### 🔹 Employee Profile & Risk
+---
+
+### **Employee Profile & Risk**
 ![Employee Profile](screenshots/employee_profile_risk.png)
 
 ---
 
-## 🧭 How to Run Locally
+## 🧠 Features
 
-### 1️⃣ Clone repository
+- **Interactive Dashboards:** Filterable, Power BI–style charts
+- **ChatGPT Assistant:** Natural language HR insights
+- **ML-Based Prediction:** Attrition risk scoring
+- **Employee Profile:** Drill down into engagement and risk
+- **Responsive UI:** Browser-friendly layout
+- **Live Deployment:** Hosted online with Streamlit Cloud
+
+---
+
+## 💾 Dataset Info
+
+Used dataset: **IBM HR Analytics Attrition dataset (Kaggle style)**  
+Included features:
+
+- Demographics
+- Engagement metrics
+- Satisfaction metrics
+- Work history
+- Attrition labels
+
+Engagement score was constructed from:
+
+- JobSatisfaction
+- EnvironmentSatisfaction
+- RelationshipSatisfaction
+- WorkLifeBalance
+
+---
+
+## 🌀 Installation
+
+Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/your-username/hr-analytics-attrition-chatbot.git
+cd hr-analytics-attrition-chatbot
 ```
 
-### 2️⃣ Create virtual environment (recommended)
+Create virtual environment:
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+# Mac/Linux
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
 ```
 
-### 3️⃣ Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Set OpenAI API key
-
-Windows CMD:
-
-```bash
-setx OPENAI_API_KEY "your_key_here"
-```
+Set environment variable:
 
 Mac/Linux:
 
 ```bash
-export OPENAI_API_KEY="your_key_here"
+export OPENAI_API_KEY="sk-XXXXXXXXXXXX"
 ```
 
-### 5️⃣ Run the application
+Windows (CMD):
+
+```bash
+setx OPENAI_API_KEY "sk-XXXXXXXXXXXX"
+```
+
+---
+
+## ▶️ Run Locally
 
 ```bash
 streamlit run chatbot_app.py
 ```
 
----
-
-## 📚 Dataset Reference
-
-Dataset: **HR Analytics – Employee Attrition & Performance**
-
-Source options:
-
-- Kaggle HR Analytics Datasets
-- IBM HR Analytics Attrition Dataset
-- Self-generated engagement features
+This will launch the dashboard in your browser.
 
 ---
 
-## 🏗️ Future Enhancements
+## 📈 Model & Chatbot Details
 
-- PDF report generation  
-- SHAP explainability  
-- Role-based login  
-- Admin monitoring panel  
-- Resume parser for HR  
+**Attrition Model:**
+
+- Logistic Regression
+- Predicts attrition risk
+- Features include engagement and demographics
+
+**ChatGPT Assistant:**
+
+- Uses OpenAI API
+- Contextual HR analytics and insights
+- Can answer queries in natural language or SQL context
 
 ---
 
-## 👤 Author
+## 🧾 License
+
+MIT License
+
+---
+
+## 👤 About the Author
 
 **Tonumay Bhattacharya**
 
-- 📧 Email: add if you wish  
-- 💼 Portfolio: add if you wish  
-- 🐙 GitHub: your profile link  
-- 🔗 LinkedIn: your profile link  
+- HR Analytics & Data Science  
+- Portfolio: *(optional link)*  
+- LinkedIn: *(optional link)*  
+- GitHub: *(optional link)*
 
 ---
 
-## 🏁 License
+## 🛠️ Optional Enhancements (Future)
 
-This project is licensed under the **MIT License**.
+- Export dashboard to PDF  
+- SHAP explainability visuals  
+- Timelines and cohort analysis  
+- User authentication / RBAC  
+- Multi-tenant HR dashboards
+
+---
+
+## ✨ Quick Links
+
+| Resource | Link |
+|----------|------|
+| Live App | https://hr-analytics-attrition-chatbot-34foqrceukpgeg8z3ms8vm.streamlit.app/ |
+| GitHub Repo | https://github.com/your-username/hr-analytics-attrition-chatbot |
 
